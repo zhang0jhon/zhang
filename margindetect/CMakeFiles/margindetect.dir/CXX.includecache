@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhang/opencv/opencv-3.0.0-rc1/test/margindetect/margindetect.cpp
+opencv2/opencv.hpp
+-
+opencv/highgui.h
+-
+
